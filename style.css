@@ -1,6 +1,8 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 100px
 }
+
+
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -12,10 +14,48 @@
     color: #ed317c;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-    color: #fff;
+background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 9px 25px;
+}
+.cat1 .cat2 .cat3{
+  
+   
+}
+
+.cat1{
+    background-color: rgb(229, 170, 61);
+    color: white;
+    border-radius: 10px;
+    
+}
+.cat2{
+    background-color: rgb(215, 136, 213);
+   color: white;
+   border-radius: 10px;
+}
+.cat3{
+    background-color: blue;
+   color: white;
+   border-radius: 10px;
+}
+.card{
     border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(113, 97, 97);
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    border-radius: 10px;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
